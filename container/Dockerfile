@@ -1,4 +1,4 @@
-FROM akanainc/base:8.3.1
+FROM akanainc/base:latest
 MAINTAINER Erik Nord <erik.nord@akana.com>
 
 #ENV AUTOMATION ps-automation.zip
@@ -21,3 +21,4 @@ USER akanaAdmin
 #EXPOSE 9900 10001
 
 ENTRYPOINT ["/opt/akana_sw/stage/install/createDockerContainer.py"]
+
