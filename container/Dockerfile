@@ -1,4 +1,4 @@
-FROM akanainc/base:8.4.3
+FROM akanainc/base:8.4.16
 MAINTAINER Erik Nord <erik.nord@akana.com>
 
 #ENV AUTOMATION ps-automation.zip
